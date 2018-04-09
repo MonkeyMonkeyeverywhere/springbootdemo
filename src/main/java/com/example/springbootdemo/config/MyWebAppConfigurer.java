@@ -22,4 +22,9 @@ public class MyWebAppConfigurer extends WebMvcConfigurationSupport {
         super.addInterceptors(registry);
     }
 
+    /*@Override
+    protected void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/resource/**").addResourceLocations("classpath:/resource/");
+        super.addResourceHandlers(registry);
+    }*/
 }
